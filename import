@@ -7,3 +7,7 @@ terraform import azurerm_subnet.exampleSubnet /subscriptions/00000000-0000-0000-
 
 
 terraform import azurerm_route_table.rt 
+
+
+
+terraform import module.network.azurerm_network_security_group.nsg  
