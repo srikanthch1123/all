@@ -1,1 +1,4 @@
 terraform import module.network.azurerm_resource_group.network /subscriptions/fec1a8c7-3053-43ab-b51d-9fcc38bd9399/resourceGroups/zgebs-workbench-dev-neu-vnet-rg
+
+
+terraform import module.network.azurerm_virtual_network.vnet 
